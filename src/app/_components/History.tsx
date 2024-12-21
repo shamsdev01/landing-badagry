@@ -120,24 +120,7 @@ export default function History() {
             ))}
           </ul>
         </motion.div>
-
-        {/* SSB Logo and Number */}
-        <motion.div
-          initial={{ scale: 0 }}
-          whileInView={{ scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-          className="flex items-center justify-end gap-4 mt-8"
-        >
-          <div className="w-16 h-16 relative">
-            <div className="w-full h-full bg-[#4CAF50] rounded-full flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">SSB</span>
-            </div>
-          </div>
-          <div className="w-12 h-12 bg-[#2E7D32] rounded-full flex items-center justify-center">
-            <span className="text-white text-2xl font-bold">2</span>
-          </div>
-        </motion.div>
+        
       </div>
     </section>
   );

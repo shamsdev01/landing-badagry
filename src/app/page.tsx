@@ -3,6 +3,11 @@ import Hero from "./_components/Hero";
 import Services from "./_components/Services";
 import LetterOfIntent from "./_components/LetterOfIntent";
 import History from "./_components/History";
+import Manifesto from "./_components/Manifesto";
+import Mission from "./_components/Mission";
+import TheBridge from "./_components/TheBridge";
+import Vote from "./_components/Vote";
+import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +17,19 @@ export default function Home() {
       <Services />
       <LetterOfIntent />
       <History />
+      <Manifesto />
+      <div className="bg-gray-50">
+        <div className="relative">
+          {/* Decorative diagonal line */}
+          <div className="absolute inset-0 transform -skew-y-3 bg-gradient-to-r from-green-700 to-purple-700 opacity-10" />
+          <div className="relative z-10">
+            <Mission />
+            <TheBridge />
+            <Vote />
+          </div>
+        </div>
+      </div>
+      <Footer />
     </main>
   );
 }

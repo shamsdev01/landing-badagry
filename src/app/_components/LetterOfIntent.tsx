@@ -101,25 +101,7 @@ export default function LetterOfIntent() {
             <p className="text-sm md:text-base font-bold">Hon. Setonji Sunday Balogun (SSB)</p>
           </motion.div>
 
-          {/* SSB Logo and Number */}
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 1.7 }}
-            className="flex items-center justify-end gap-4 pt-6"
-          >
-            <div className="w-16 h-16 relative">
-              <Image
-                src="/images/ssb-logo.png" // Make sure to add your logo image
-                alt="SSB Logo"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <div className="w-12 h-12 bg-[#0b4619] rounded-full flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">1</span>
-            </div>
-          </motion.div>
+        
         </div>
       </motion.div>
     </section>
