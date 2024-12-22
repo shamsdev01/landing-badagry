@@ -89,7 +89,7 @@ export default function Services() {
             animate={{ scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
             className="absolute 
-              top-[65%] md:top-1/2 
+              top-[85%] md:top-[65%] 
               left-1/2 
               -translate-x-1/2 
               -translate-y-1/2
